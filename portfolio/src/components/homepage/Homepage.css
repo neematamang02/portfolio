@@ -1,0 +1,41 @@
+.navbar{
+    height: 80px;
+    padding: 15px 81px;
+}
+
+.navbar-nav{
+    gap: 40px;
+}
+
+.landingpg{
+    height: 727px;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+    .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds a 20px gap between all child elements inside .text-content */
+}
+
+.row-content{
+    padding: 100px 81px;
+}
+
+.landingpage-btn{
+    gap: 10px;
+}
+
+.profile-img img{
+    height: 560px;
+    width: 553px;
+    border: 1px;
+    border-radius: 300px;
+}
+
+.software-section{
+    height: 180px;
+    background-color: green;
+}

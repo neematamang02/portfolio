@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+:root {
+  --bgcolor:#FFFFFF;
+  --themecolor:#0077FF;
+}
+
+
+body{
+  font-family:sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  background-color: var(--bgcolor);
+}
+
+.btn{
+  height: 50px;
+  width: 160px;
+  background-color: var(--themecolor);
+  color: white;
+  border-radius: 50px;
+}
+
+.upload-btn{
+  height: 50px;
+  width: 160px;
+  border-color: var(--themecolor);
+  color: var(--themecolor);
+  border-radius: 50px;
+
+}
