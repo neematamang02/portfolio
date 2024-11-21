@@ -22,8 +22,13 @@ const Landingpage = () => {
 
         </div>
         
-        <div className="container-fluid software-section">
-          hello there
+        <div className="container-fluid software-section d-flex">
+          <img src="./icons/icon1.png" alt="icons" />
+          <img src="./icons/icon2.png" alt="icons" />
+          <img src="./icons/icon3.png" alt="icons" />
+          <img src="./icons/icon4.png" alt="icons" />
+          <img src="./icons/icon5.png" alt="icons" />
+          
 
         </div>
       
