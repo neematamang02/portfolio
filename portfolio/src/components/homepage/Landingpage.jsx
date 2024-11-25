@@ -1,5 +1,7 @@
 import React from 'react'
 import { MdOutlineFileDownload } from "react-icons/md";
+import Aboutmesection from './Aboutmesection';
+import Servicesection from './Servicesection';
 
 const Landingpage = () => {
   return (
@@ -31,6 +33,10 @@ const Landingpage = () => {
           
 
         </div>
+
+        <Aboutmesection/>
+        <Servicesection/>
+        
       
     </div>
   )

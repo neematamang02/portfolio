@@ -46,3 +46,12 @@
     width: 267.12px;
     
 }
+
+.progressbar{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title-content{
+    gap: 0;
+}
