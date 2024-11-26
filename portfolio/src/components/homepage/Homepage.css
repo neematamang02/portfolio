@@ -1,3 +1,9 @@
+:root {
+    --bgcolor:#FFFFFF;
+    --themecolor:#0077FF;
+  }
+  
+
 .navbar{
     height: 80px;
     padding: 15px 81px;
@@ -7,10 +13,15 @@
     gap: 40px;
 }
 
+.titlepage{
+    padding: 100px 81px;
+}
+
 .landingpg{
     height: 727px;
     flex-direction: row;
     gap: 10px;
+    
 }
 
 
@@ -20,10 +31,9 @@
   gap: 10px; /* Adds a 20px gap between all child elements inside .text-content */
 }
 
-.row-content{
+.aboutmesection{
     padding: 100px 81px;
 }
-
 .landingpage-btn{
     gap: 10px;
 }
@@ -55,3 +65,44 @@
 .title-content{
     gap: 0;
 }
+
+.nav-carousel{
+    gap: 20px;
+    color: var(--themecolor);
+}
+
+.servicesection{
+    padding: 100px 81px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box{
+    flex: 0 0 auto; 
+    scroll-snap-align: start;
+    height: 366px;
+    width: 406px;
+    padding: 30px;
+    background-color: var(--themecolor);
+   flex-direction: column;
+   gap: 10px;
+   color: white;
+   border-radius: 10px;
+}
+
+.box img{
+    height: 75px;
+    width: 75px;
+}
+
+.slides{
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; /* Optional for smooth snapping */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile */
+    gap: 20px; /* Spacing between the items */
+}
+
+.slides::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar for a cleaner look */
+  }
+

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Aboutmesection = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid aboutmesection">
          <div className="row align-items-center row-content">
             
 

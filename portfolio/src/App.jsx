@@ -4,6 +4,7 @@ import './components/homepage/Homepage.css'
 import Landingpage from './components/homepage/Landingpage'
 
 
+
 function App() {
 
 
@@ -12,6 +13,7 @@ function App() {
     <div className="container-fluid">
     <Navigationbar/>
     <Landingpage/>
+    
     
     
     </div>

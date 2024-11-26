@@ -6,6 +6,7 @@ import Servicesection from './Servicesection';
 const Landingpage = () => {
   return (
     <div className="container-fluid landingpg">
+      <div className="titlepage">
         <div className="row align-items-center row-content">
         <div class="col text-content">
             <h4>Welcome to my portfolio</h4>
@@ -22,6 +23,7 @@ const Landingpage = () => {
       <img src="./images/profileimg.png" alt="profileimg" />
     </div>
 
+        </div>
         </div>
         
         <div className="container-fluid software-section d-flex">
