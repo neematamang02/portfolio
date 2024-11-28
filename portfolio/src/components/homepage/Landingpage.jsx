@@ -2,6 +2,9 @@ import React from 'react'
 import { MdOutlineFileDownload } from "react-icons/md";
 import Aboutmesection from './Aboutmesection';
 import Servicesection from './Servicesection';
+import Achievementsection from './Achievementsection';
+import Portfoliosection from './Portfoliosection';
+import Testmonialsection from './Testmonialsection';
 
 const Landingpage = () => {
   return (
@@ -38,7 +41,9 @@ const Landingpage = () => {
 
         <Aboutmesection/>
         <Servicesection/>
-        
+        <Achievementsection/>
+        <Portfoliosection/>
+        <Testmonialsection/>
       
     </div>
   )

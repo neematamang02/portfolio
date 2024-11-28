@@ -31,21 +31,21 @@ const Servicesection = () => {
 
           </div>
 
-          <div className="container box d-flex">
+          <div className="container boxes d-flex">
             <img src="./icons/designicon.png" alt="designicon" />
             <h2 style={{fontWeight:"bold"}}>Website / App Design UX / UI Design</h2>
             <p>Creating Engaging Digital Experiences for Websites and Apps through UX/UI Design</p>
             <button className="upload-btn">learn more <FaArrowRightLong/></button>
 
           </div>
-          <div className="container box d-flex">
+          <div className="container boxes d-flex">
             <img src="./icons/designicon.png" alt="designicon" />
             <h2 style={{fontWeight:"bold"}}>Website / App Design UX / UI Design</h2>
             <p>Creating Engaging Digital Experiences for Websites and Apps through UX/UI Design</p>
             <button className="upload-btn">learn more <FaArrowRightLong/></button>
 
           </div>
-          <div className="container box d-flex">
+          <div className="container boxes d-flex">
             <img src="./icons/designicon.png" alt="designicon" />
             <h2 style={{fontWeight:"bold"}}>Website / App Design UX / UI Design</h2>
             <p>Creating Engaging Digital Experiences for Websites and Apps through UX/UI Design</p>

@@ -89,6 +89,24 @@
    color: white;
    border-radius: 10px;
 }
+.boxes{
+    flex: 0 0 auto; 
+    scroll-snap-align: start;
+    height: 366px;
+    width: 406px;
+    padding: 30px;
+    background-color: green;
+   flex-direction: column;
+   gap: 10px;
+   color: white;
+   border-radius: 10px;
+
+}
+
+.boxes img{
+    height: 75px;
+    width: 75px;
+}
 
 .box img{
     height: 75px;
@@ -106,3 +124,81 @@
     display: none; /* Hides the scrollbar for a cleaner look */
   }
 
+.achievementsection{
+    height: 678px;
+    background-color: var(--themecolor);
+    padding: 100px 81px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.achievementsection h1{
+    font-size: 60px;
+    font-weight:700;
+    
+    
+    color: white;
+}
+
+.achievements{
+    margin-top: 100px;
+}
+.achievebox{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    height: 171px;
+    width: 297px;
+    text-align: center;
+}
+
+
+.portfoliosection{
+    height: 1261px;
+    padding: 100px 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.titlesection{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    text-align: center;
+}
+
+.titlesection h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--themecolor);
+}
+
+.titlesection h1{
+    font-size: 50px;
+    font-weight:700;
+}
+
+.buttonnav{
+    gap: 24px;
+    justify-content: center;
+}
+.previewbox{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.prevbox{
+    height: 367px;
+    width: 406px;
+    border-radius: 15px;
+    border: 1px;
+}
+
+.prevbox img{
+    height: 367px;
+    width: 406px;
+
+}
