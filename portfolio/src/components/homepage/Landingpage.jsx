@@ -5,6 +5,7 @@ import Servicesection from './Servicesection';
 import Achievementsection from './Achievementsection';
 import Portfoliosection from './Portfoliosection';
 import Testmonialsection from './Testmonialsection';
+import Contactmesection from './Contactmesection';
 
 const Landingpage = () => {
   return (
@@ -44,6 +45,7 @@ const Landingpage = () => {
         <Achievementsection/>
         <Portfoliosection/>
         <Testmonialsection/>
+        <Contactmesection/>
       
     </div>
   )

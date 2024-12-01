@@ -153,11 +153,12 @@
     height: 171px;
     width: 297px;
     text-align: center;
+
 }
 
 
 .portfoliosection{
-    height: 1261px;
+   
     padding: 100px 81px;
     display: flex;
     flex-direction: column;
@@ -169,11 +170,24 @@
     gap:15px;
     text-align: center;
 }
+.titlesection h2{
+    color: white;
+    font-size: 50px;
+    font-weight:700;
+}
 
 .titlesection h3{
     font-size: 20px;
     font-weight: 600;
     color: var(--themecolor);
+}
+
+
+.titlesection h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
 }
 
 .titlesection h1{
@@ -201,4 +215,87 @@
     height: 367px;
     width: 406px;
 
+}
+.feedbackbox{
+    display: flex;
+    gap: 20px;
+}
+
+.testmonialsection{
+    padding: 100px 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.clientsreview{
+    height: 465.9px;
+    width: 297px;
+    border-radius: 15px;
+    border: 1px solid #DDDDDD;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.clientsreview img{
+    height: 150px;
+    width: 150px;
+}
+
+.clientname h2{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.clientname h3{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contactmesection{
+    background-color: var(--themecolor);
+    padding: 100px 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contactdetails{
+    height: 272px;
+    width: 514px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.numbers{
+    line-height: 0rem;
+
+}
+
+.contactform{
+    height: 371px;
+    width: 515px;
+    gap: 15px;
+}
+.contactbox{
+    gap: 30px;
+    justify-content: center;
+}
+
+.requestbtn{
+    height: 54px;
+    width: 198px;
+    border-radius: 50px;
+    background-color: #00489A;
+    color: white;
+    border-color: transparent;
 }
